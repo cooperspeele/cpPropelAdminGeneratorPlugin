@@ -1,0 +1,49 @@
+#sf_admin_container ul.tabs {
+	list-style: none;
+	background-image: none;
+	margin: 0.5em 0;
+	padding: 6px 10px 4px 10px;
+	border-bottom: 1px solid #6c6;
+}
+
+#sf_admin_container ul.tabs li { 
+  list-style-type: none;
+  background-image: none;
+  display: inline;
+  margin: 0 5px 0 0;
+  padding: 0;
+}
+
+#sf_admin_container ul.tabs li a {
+	text-decoration: none;
+  background-color: #cfc;
+  color: #666;
+  padding: 6px 12px;
+  border: 1px solid #6c6;
+  border-bottom: none;
+}
+
+#sf_admin_container ul.tabs a:hover {
+	text-decoration: none;
+  background-color: #fff;
+} 
+
+#sf_admin_container ul.tabs li.selected a {
+	color: #000;
+	background-color: #fff;
+	position: relative;
+	top: 1px;
+	padding-top: 7px;
+}
+
+#sf_admin_container ul.tabs li.selected { 
+  border-bottom: 1px solid red;
+}
+
+#sf_admin_container fieldset.tab-pane {
+  display: none;
+}
+
+#sf_admin_container fieldset.tab-selected {
+  display: block;
+}

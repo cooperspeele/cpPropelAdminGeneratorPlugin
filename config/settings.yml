@@ -1,0 +1,4 @@
+all:
+  .settings:
+    cp_admin_datatables_dir:      /cpPropelAdminGeneratorPlugin/dataTable
+    cp_admin_datatables_tabletools_dir: /cpPropelAdminGeneratorPlugin/dataTable

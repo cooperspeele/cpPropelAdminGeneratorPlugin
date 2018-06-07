@@ -1,0 +1,16 @@
+{
+    "name": "cooperspeele/cp-propel-admin-generator-plugin",
+    "type": "symfony1-plugin",
+    "description": "",
+    "keywords": ["symfony", "plugin"],
+    "license": "MIT",
+    "homepage": "https://github.com/cooperspeele/cpPropelAdminGeneratorPlugin",
+    "require": {
+        "composer/installers": "*"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}

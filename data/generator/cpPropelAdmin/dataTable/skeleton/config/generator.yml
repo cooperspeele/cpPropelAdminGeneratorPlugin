@@ -1,0 +1,29 @@
+generator:
+  class: sfPropelGenerator
+  param:
+##CONFIG##
+
+    config:
+      actions: ~
+      fields:  ~
+      list:    ~
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~
+      
+      dataTable:
+        bProcessing:  true
+        bAutoWidth:   false
+        bPaginate:    true
+        sPaginationType: full_numbers
+        aaSorting:    [[1, "asc"]]
+        oLanguage:
+          sUrl: "/cpPropelAdminGeneratorPlugin/dataTable/lang/<?php echo sfContext::getInstance()->getUser()->getCulture(); ?>.txt"
+        sDom: '<"batch_actions">T<"clear">frtilp'
+        bStateSave: true
+        aoColumnDefs:
+         - { bSortable: false, aTargets: [0] }
+        bServerSide: true
+        asStripClasses: [] 
+
